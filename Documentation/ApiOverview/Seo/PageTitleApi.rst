@@ -44,7 +44,7 @@ the page record will not be the correct title. To make sure to display the
 correct page title, you have to create your own page title provider. It is
 quite easy to create one.
 
-Example: Set the page title from your extensions controller
+Example: Set the page title from your extension's controller
 -----------------------------------------------------------
 
 First, create a PHP class in your extension that implements the
