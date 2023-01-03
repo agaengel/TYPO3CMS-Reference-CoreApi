@@ -80,10 +80,10 @@ Configure the new page title provider to be used in your TypoScript setup:
 ..  literalinclude:: ExampleSetInController/_setup.typoscript
     :caption: EXT:my_sitepackage/Configuration/TypoScript/setup.typoscript
 
-Example: Use website title as prefix after page title
------------------------------------------------------
+Example: Use website title as postfix after page title
+------------------------------------------------------
 
-If you want to construct titles by prefixing the page title with the website
+If you want to construct titles by postfixing the page title with the website
 title defined in the :ref:`site configuration <sitehandling>`, i.e
 `Contact - My Website` you implement a page title provider as follows:
 
